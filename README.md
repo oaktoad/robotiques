@@ -1,3 +1,3 @@
 # robotiques
 Robotics use only. 
-ee# roboticsRepo
+Current week: 2.
