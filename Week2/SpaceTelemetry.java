@@ -1,21 +1,28 @@
-class Main {
+package Week2;
+class SpaceTelemetry {
     public static void main(String[] args) 
     {   
-        int tick = 1;
-        tick++;
+        // Week2 assignment
+
         byte sectorId = 0b111;
         int statusCode = 0x2F;
+        int tick = 1;
         long totalDistance = 12500000;
+        tick++;
+        
         float batteryCharge = 84.50f;
+        float batteryUsed = 100 - batteryCharge;
+
+        char signalQualityGrade = 'A';
+        
         // Each tick is worth 24 hours mission wise. 
         double orbitalKMH = (totalDistance / 1000) / (tick * 24);
-        char signalQualityGrade = 'A';
-        boolean oxygenStatus = true;
         int hudDisplaySpeed = (int)orbitalKMH;
-        float batteryUsed = 100 - batteryCharge;
         batteryCharge = 100 - batteryUsed;
+        
+        boolean oxygenStatus = true;
         boolean isSystemFunctioning = batteryCharge > 20.00f && oxygenStatus;
-
+        
 
 
             
