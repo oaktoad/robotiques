@@ -1,5 +1,6 @@
 package Week2;
-class SpaceTelemetry {
+class SpaceTelemetry 
+{
     public static void main(String[] args) 
     {   
         // Week2 assignment

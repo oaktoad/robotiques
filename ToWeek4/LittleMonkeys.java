@@ -1,6 +1,7 @@
 package ToWeek4;
 
-class LittleMonkeys {
+class LittleMonkeys 
+{
     public static void main(String[] args) 
     {   
         // Week3 assignment

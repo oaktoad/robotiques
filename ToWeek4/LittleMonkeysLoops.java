@@ -1,6 +1,7 @@
 package ToWeek4;
 
-class LittleMonkeysLoop {
+class LittleMonkeysLoop 
+{
     public static void main(String[] args) 
     {
         // Week4 assignment
